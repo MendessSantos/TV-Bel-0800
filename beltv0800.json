@@ -3,30 +3,31 @@
   "atualizado": "2026-11-15",
   "canais": [
     {
-      "nome": "Canal Teste (apague depois)",
-      "categoria": "Teste",
-      "logo": "",
-      "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
-    },
-    {
-      "nome": "Canal Exemplo Normal",
-      "categoria": "Abertos",
-      "logo": "https://SEU-SITE.com/logos/canal1.png",
-      "url": "https://SERVIDOR.com/live/canal1/index.m3u8"
-    },
-    {
-      "nome": "Canal Exemplo com Referer",
-      "categoria": "Esportes",
-      "logo": "https://SEU-SITE.com/logos/canal2.png",
-      "url": "https://CDN.com/hls/canal2/playlist.m3u8",
-      "referer": "https://SITE-DO-PLAYER.com/"
-    },
-    {
-      "nome": "COM REFERER",
-      "categoria": "Filmes",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFhEC750KFSAp3K-S2zU7q4fcOxkQKPLC2cRtQa7La7g&s=10",
-      "url": "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/premiereclubes/index.m3u8",
+      "nome": "GLOBO DF",
+      "categoria": "Aberto",
+      "logo": "https://1.embedcanaisdetv.com/images/globo.webp",
+      "url": "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/globodf/index.m3u8",
       "referer": "https://playerembedcanais.site/",
+      "origin": "",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+      "ativo": true
+    },
+    {
+      "nome": "ESPN",
+      "categoria": "Filmes",
+      "logo": "https://1.embedcanaisdetv.com/images/espn.png",
+      "url": "https://-_kerberos-__tcp-_443-_https_-_-_-__--__--_-_-_-_______________.null-null.shop/tos-alisg-avt-0068/proxy?container=images&refresh=10&url=https://neosoro.gq/docs/espn/__index.m3u8?sv=14&cc=y&ip=2804:14c:65f0:8d4c:3cbf:19d9:7717:c726&ipv6=2804:14c:65f0:8d4c:3cbf:19d9:7717:c726&ip_bind=9e9308df4efea41c94079f25f016921b&nu3zAQc9HC3GbwJq=1794769162-EFLEv9xMAvxdF5iqjJeGXcvl6%2BgXcGQavYZ%2FCcioAZs%3D",
+      "referer": "",
+      "origin": "",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+      "ativo": true
+    },
+    {
+      "nome": "A FAZENDA",
+      "categoria": "Entreterimento",
+      "logo": "https://img.faz-o-eli.online/afazenda.png",
+      "url": "https://8082b6e2113420e4c4f714d5b2223041.s25-cloudfront-net.lat/stream/5729cdaf18825078d06d758cb07ccc25/error.txt",
+      "referer": "",
       "origin": "",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
       "ativo": true
