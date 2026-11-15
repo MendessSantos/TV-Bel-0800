@@ -1,0 +1,35 @@
+{
+  "app": "Bel TV 0800",
+  "atualizado": "2026-11-15",
+  "canais": [
+    {
+      "nome": "Canal Teste (apague depois)",
+      "categoria": "Teste",
+      "logo": "",
+      "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+    },
+    {
+      "nome": "Canal Exemplo Normal",
+      "categoria": "Abertos",
+      "logo": "https://SEU-SITE.com/logos/canal1.png",
+      "url": "https://SERVIDOR.com/live/canal1/index.m3u8"
+    },
+    {
+      "nome": "Canal Exemplo com Referer",
+      "categoria": "Esportes",
+      "logo": "https://SEU-SITE.com/logos/canal2.png",
+      "url": "https://CDN.com/hls/canal2/playlist.m3u8",
+      "referer": "https://SITE-DO-PLAYER.com/"
+    },
+    {
+      "nome": "COM REFERER",
+      "categoria": "Filmes",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFhEC750KFSAp3K-S2zU7q4fcOxkQKPLC2cRtQa7La7g&s=10",
+      "url": "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/premiereclubes/index.m3u8",
+      "referer": "https://playerembedcanais.site/",
+      "origin": "",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+      "ativo": true
+    }
+  ]
+}
