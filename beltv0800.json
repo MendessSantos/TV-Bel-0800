@@ -12,14 +12,14 @@
       "nome": "Canal M3U8 Normal",
       "categoria": "Abertos",
       "logo": "https://SEU-SITE.com/logos/canal1.png",
-      "url": "https://cdn.live.br1.jmvstream.com/w/LVW-9359/LVW9359_XSyReL0QVf/playlist.m3u8"
+      "url": "https://SERVIDOR.com/live/canal1/index.m3u8"
     },
     {
       "nome": "Canal M3U8 com Referer",
       "categoria": "Esportes",
       "logo": "https://SEU-SITE.com/logos/canal2.png",
-      "url": "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/animalplanet/index.m3u8",
-      "referer": "https://playerembedcanais.site/"
+      "url": "https://CDN.com/hls/canal2/playlist.m3u8",
+      "referer": "https://SITE-DO-PLAYER.com/"
     },
     {
       "nome": "ESPN (link proxy)",
@@ -36,10 +36,24 @@
       "tipo": "web"
     },
     {
+      "nome": "Rbs Globo (página PHP)",
+      "categoria": "Abertos",
+      "logo": "",
+      "url": "https://sinaises.blogspot.com/2026/10/rbs-globo-porto-alegre.html",
+      "tipo": "web"
+    },
+    {
       "nome": "YouTube Ao Vivo",
       "categoria": "YouTube",
       "logo": "",
-      "url": "https://www.youtube.com/embed/uLqXRKXOB8E"
+      "url": "https://www.youtube.com/embed/uLqXRKXOB8E",
+      "obs": "Aceita: /embed/ID, watch?v=ID, youtu.be/ID, /live/ID ou link do canal /@nome/live"
+    },
+    {
+      "nome": "YouTube Canal Ao Vivo",
+      "categoria": "YouTube",
+      "logo": "",
+      "url": "https://www.youtube.com/@cnnbrasil/live"
     },
     {
       "nome": "Globo (DASH .mpd)",
@@ -47,8 +61,9 @@
       "logo": "",
       "url": "https://srv-mileto103.glbcdn.net/live/1/GLOBOCSL/DASH_STD/GLOBOCSL.mpd",
       "tipo": "dash",
-      "drm_licenca": "",
-      "clearkey": ""
+      "kid": "ef1a1700033b80b0ba6a38461a310022",
+      "key": "",
+      "obs": "Canal com DRM: so toca colocando a key (32 caracteres) do kid acima"
     },
     {
       "nome": "Exemplo Completo (todos os campos)",
@@ -59,7 +74,9 @@
       "referer": "https://SITE-DO-PLAYER.com/",
       "origin": "https://SITE-DO-PLAYER.com",
       "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
-      "headers": { "X-Exemplo": "valor" },
+      "headers": {
+        "X-Exemplo": "valor"
+      },
       "ativo": true
     }
   ]
