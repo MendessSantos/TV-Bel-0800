@@ -4,7 +4,7 @@
   "atualizado": "2026-11-16",
   "canais": [
     {
-      "nome": "BAND 2 - TV THATHI",
+      "nome": "BAND - TV Tathi ",
       "categoria": "Abertos",
       "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Band_2026_logo.png/500px-Band_2026_logo.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
       "url": "https://vipwaytvcdn.multtv.tv.br:5444/TVThathi_Band/720p/index.m3u8"
@@ -37,10 +37,31 @@
       "referer": "https://playerembedcanais.site/"
     },
     {
-      "nome": "PREMIERE CB",
+      "nome": "PREMIERE CB - EC",
       "categoria": "Esportes",
       "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Logotipo_do_Premiere_%282017%29.svg/960px-Logotipo_do_Premiere_%282017%29.svg.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
       "url": "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/premiereclubes/index.m3u8",
+      "referer": "https://playerembedcanais.site/"
+    },
+    {
+      "nome": "PREMIERE CB - RC",
+      "categoria": "Esportes",
+      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Logotipo_do_Premiere_%282017%29.svg/960px-Logotipo_do_Premiere_%282017%29.svg.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "url": "https://atlas.mediastream.best/live/secure/RtrkyY9gPEudlAaOysXvUQsiN803AKhaXQy_8Gy-Esc/1794893310/8e2a865fe73b03b1/premiereclubes/index.m3u8",
+      "referer": "https://playerembedcanais.site/"
+    },
+    {
+      "nome": "ESPN",
+      "categoria": "Esportes",
+      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/ESPN_wordmark.svg/500px-ESPN_wordmark.svg.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "url": "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/espn/index.m3u8",
+      "referer": "https://playerembedcanais.site/"
+    },
+     {
+      "nome": "Sport TV",
+      "categoria": "Esportes",
+      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Logotipo_do_SporTV_%282021%29.svg/960px-Logotipo_do_SporTV_%282021%29.svg.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "url": "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/espn/index.m3u8",
       "referer": "https://playerembedcanais.site/"
     },
     {
@@ -48,6 +69,27 @@
       "categoria": "Abertos",
       "logo": "https://upload.wikimedia.org/wikipedia/pt/0/0e/Logotipo_da_Record_%28rede_de_televis%C3%A3o%29.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
       "url": "https://cdn.live.br1.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/playlist.m3u8"
+    },
+    {
+      "nome": "REDE RECORD DF - EC",
+      "categoria": "Abertos",
+      "logo": "https://upload.wikimedia.org/wikipedia/pt/0/0e/Logotipo_da_Record_%28rede_de_televis%C3%A3o%29.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+      "url": "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/recorddf/index.m3u8",
+      "referer": "https://playerembedcanais.site/"
+    },
+    {
+      "nome": "SBT SP - EC",
+      "categoria": "Abertos",
+      "logo": "https://thumb.wikimedia.org/wikipedia/pt/thumb/4/41/Logotipo_do_SBT.svg/500px-Logotipo_do_SBT.svg.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "url": "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/sbtsp/index.m3u8",
+      "referer": "https://playerembedcanais.site/"
+    },
+     {
+      "nome": "SBT RJ - EC",
+      "categoria": "Abertos",
+      "logo": "https://thumb.wikimedia.org/wikipedia/pt/thumb/4/41/Logotipo_do_SBT.svg/500px-Logotipo_do_SBT.svg.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "url": "https://d3-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/sbtrj/index.m3u8",
+      "referer": "https://playerembedcanais.site/"
     },
     {
       "nome": "SBT INTERIOR",
