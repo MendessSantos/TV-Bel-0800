@@ -3,60 +3,72 @@
   "atualizado": "2026-11-16",
   "canais": [
     {
-      "nome": "BAND 2 - TV THATHI",
-      "categoria": "Abertos",
-      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Band_2026_logo.png/500px-Band_2026_logo.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-      "url": "https://vipwaytvcdn.multtv.tv.br:5444/TVThathi_Band/720p/index.m3u8",
-      "referer": ""
+      "nome": "Canal Teste (apague depois)",
+      "categoria": "Teste",
+      "logo": "",
+      "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
     },
     {
-      "nome": "CANAL GOAT - VDKS",
+      "nome": "Canal M3U8 Normal",
+      "categoria": "Abertos",
+      "logo": "https://SEU-SITE.com/logos/canal1.png",
+      "url": "https://SERVIDOR.com/live/canal1/index.m3u8"
+    },
+    {
+      "nome": "Canal M3U8 com Referer",
       "categoria": "Esportes",
-      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/LOGO_COMPLETO_PRETO.png/500px-LOGO_COMPLETO_PRETO.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-      "url": "https://cng-cngt.otteravision.com/cng/cngt/cngt_720.m3u8",
-      "referer": ""
+      "logo": "https://SEU-SITE.com/logos/canal2.png",
+      "url": "https://CDN.com/hls/canal2/playlist.m3u8",
+      "referer": "https://SITE-DO-PLAYER.com/"
     },
     {
-      "nome": "GLOBO DF - EC",
-      "categoria": "Abertos",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1f/TV_Globo_logo_%28April_2025%29.png?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
-      "url": "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/globodf/index.m3u8",
-      "referer": "https://playerembedcanais.site/"
+      "nome": "Exemplo Pagina Web 1(php/html)",
+      "categoria": "Exemplos",
+      "logo": "",
+      "url": "https://sinaises.blogspot.com/2026/10/rbs-globo-porto-alegre.html",
+      "tipo": "web"
+    },
+     {
+      "nome": "Exemplo Pagina Web 2(php/html)",
+      "categoria": "Exemplos",
+      "logo": "",
+      "url": "https://ww0.embedtv.cc/afazenda",
+      "tipo": "web"
     },
     {
-      "nome": "GLOBO RJ - EC",
-      "categoria": "Abertos",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1f/TV_Globo_logo_%28April_2025%29.png?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
-      "url": "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/globorj/index.m3u8",
-      "referer": "https://playerembedcanais.site/"
+      "nome": "Exemplo DASH (.mpd)",
+      "categoria": "Exemplos",
+      "logo": "",
+      "url": "https://SERVIDOR.com/live/canal/manifest.mpd",
+      "tipo": "dash"
     },
     {
-      "nome": "GLOBO SP - EC",
-      "categoria": "Abertos",
-      "logo": "https://upload.wikimedia.org/wikipedia/commons/1/1f/TV_Globo_logo_%28April_2025%29.png?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled",
-      "url": "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/globosp/index.m3u8",
-      "referer": "https://playerembedcanais.site/"
+      "nome": "YouTube Ao Vivo",
+      "categoria": "YouTube",
+      "logo": "",
+      "url": "https://www.youtube.com/embed/uLqXRKXOB8E",
+      "obs": "Aceita: /embed/ID, watch?v=ID, youtu.be/ID, /live/ID ou link do canal /@nome/live"
     },
     {
-      "nome": "PREMIERE CB",
-      "categoria": "Esportes",
-      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Logotipo_do_Premiere_%282017%29.svg/960px-Logotipo_do_Premiere_%282017%29.svg.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-      "url": "https://d1-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/premiereclubes/index.m3u8",
-      "referer": "https://playerembedcanais.site/"
+      "nome": "YouTube Canal Ao Vivo",
+      "categoria": "YouTube",
+      "logo": "",
+      "url": "https://www.youtube.com/@cnnbrasil/live",
+      "obs": "Aceita /@nome, /@nome/live, /channel/UC.../live. So toca quando o canal estiver ao vivo."
     },
     {
-      "nome": "REDE RECORD - TVR",
-      "categoria": "Abertos",
-      "logo": "https://upload.wikimedia.org/wikipedia/pt/0/0e/Logotipo_da_Record_%28rede_de_televis%C3%A3o%29.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-      "url": "https://cdn.live.br1.jmvstream.com/w/LVW-10842/LVW10842_513N26MDBL/playlist.m3u8",
-      "referer": ""
-    },
-    {
-      "nome": "SBT INTERIOR",
-      "categoria": "Abertos",
-      "logo": "https://thumb.wikimedia.org/wikipedia/pt/thumb/4/41/Logotipo_do_SBT.svg/500px-Logotipo_do_SBT.svg.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-      "url": "https://cdn.live.br1.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/chunklist.m3u8",
-      "referer": ""
+      "nome": "Exemplo Completo (todos os campos)",
+      "categoria": "Filmes",
+      "logo": "https://SEU-SITE.com/logos/canal3.png",
+      "url": "https://CDN.com/hls/canal3/master.m3u8",
+      "tipo": "auto",
+      "referer": "https://SITE-DO-PLAYER.com/",
+      "origin": "https://SITE-DO-PLAYER.com",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+      "headers": {
+        "X-Exemplo": "valor"
+      },
+      "ativo": true
     }
   ],
   "versao": 4
