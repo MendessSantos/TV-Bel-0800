@@ -12,58 +12,49 @@
       "nome": "Canal M3U8 Normal",
       "categoria": "Abertos",
       "logo": "https://SEU-SITE.com/logos/canal1.png",
-      "url": "https://SERVIDOR.com/live/canal1/index.m3u8"
+      "url": "https://cdn.live.br1.jmvstream.com/w/LVW-9359/LVW9359_XSyReL0QVf/playlist.m3u8"
     },
     {
       "nome": "Canal M3U8 com Referer",
       "categoria": "Esportes",
       "logo": "https://SEU-SITE.com/logos/canal2.png",
-      "url": "https://CDN.com/hls/canal2/playlist.m3u8",
-      "referer": "https://SITE-DO-PLAYER.com/"
+      "url": "https://d2-ywppjexvlyulasvmgzjdftfjikth0711oq80soveui6lkbi2iza2zf.cdn8embed.xyz/animalplanet/index.m3u8",
+      "referer": "https://playerembedcanais.site/"
     },
     {
-      "nome": "ESPN (link proxy)",
-      "categoria": "Esportes",
-      "logo": "",
-      "url": "https://-_kerberos-__tcp-_443-_https_-_-_-__--__--_-_-_-_______________.null-null.shop/tos-alisg-avt-0068/proxy?container=images&refresh=10&url=https://neosoro.gq/docs/espn/__index.m3u8?sv=14&cc=y&ip=2804:14c:65f0:8d4c:3cbf:19d9:7717:c726&ipv6=2804:14c:65f0:8d4c:3cbf:19d9:7717:c726&ip_bind=9e9308df4efea41c94079f25f016921b&nu3zAQc9HC3GbwJq=1794769162-EFLEv9xMAvxdF5iqjJeGXcvl6%2BgXcGQavYZ%2FCcioAZs%3D",
-      "tipo": "hls"
-    },
-    {
-      "nome": "Band SP (página PHP)",
-      "categoria": "Abertos",
-      "logo": "",
-      "url": "https://embedcanaisdetv.xyz/e/index.php?canal=bandsp",
-      "tipo": "web"
-    },
-    {
-      "nome": "rio-sul-globo (página PHP)",
-      "categoria": "Abertos",
+      "nome": "Exemplo Pagina Web (php/html)",
+      "categoria": "Exemplos",
       "logo": "",
       "url": "https://sinaises.blogspot.com/2026/10/tv-rio-sul-globo-resende.html",
       "tipo": "web"
     },
+     {
+      "nome": "Band (php/html)",
+      "categoria": "Exemplos",
+      "logo": "",
+      "url": "https://playerembedcanais.site/bandsp/",
+      "tipo": "web"
+    },
     {
-      "nome": "YouTube Ao Vivo",
+      "nome": "Exemplo DASH (.mpd)",
+      "categoria": "Exemplos",
+      "logo": "",
+      "url": "https://SERVIDOR.com/live/canal/manifest.mpd",
+      "tipo": "dash"
+    },
+    {
+      "nome": "Record News -YouTube Ao Vivo",
       "categoria": "YouTube",
       "logo": "",
-      "url": "https://www.youtube.com/embed/uLqXRKXOB8E",
+      "url": "https://www.youtube.com/embed/s7tAddDkJkw",
       "obs": "Aceita: /embed/ID, watch?v=ID, youtu.be/ID, /live/ID ou link do canal /@nome/live"
     },
     {
-      "nome": "YouTube Canal Ao Vivo",
+      "nome": "SBT 2- YouTube Canal Ao Vivo",
       "categoria": "YouTube",
       "logo": "",
-      "url": "https://www.youtube.com/@cnnbrasil/live"
-    },
-    {
-      "nome": "Globo (DASH .mpd)",
-      "categoria": "Abertos",
-      "logo": "",
-      "url": "https://srv-mileto103.glbcdn.net/live/1/GLOBOCSL/DASH_STD/GLOBOCSL.mpd",
-      "tipo": "dash",
-      "kid": "ef1a1700033b80b0ba6a38461a310022",
-      "key": "",
-      "obs": "Canal com DRM: so toca colocando a key (32 caracteres) do kid acima"
+      "url": "https://www.youtube.com/embed/uLqXRKXOB8E",
+      "obs": "Aceita /@nome, /@nome/live, /channel/UC.../live. So toca quando o canal estiver ao vivo."
     },
     {
       "nome": "Exemplo Completo (todos os campos)",
@@ -79,5 +70,6 @@
       },
       "ativo": true
     }
-  ]
+  ],
+  "versao": 4
 }
