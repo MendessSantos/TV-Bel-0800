@@ -2,19 +2,39 @@
   "app": "Bel TV 0800",
   "atualizado": "2026-11-16",
   "canais": [
-    {
-      "nome": "Canal Teste (apague depois)",
-      "categoria": "Teste",
-      "logo": "",
-      "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
-    },
-    {
-      "nome": "Canal M3U8 Normal",
+     {
+      "nome": "SBT PI - TV CIDADE VERDE",
       "categoria": "Abertos",
-      "logo": "https://SEU-SITE.com/logos/canal1.png",
-      "url": "https://SERVIDOR.com/live/canal1/index.m3u8"
+      "logo": "https://thumb.wikimedia.org/wikipedia/pt/thumb/4/41/Logotipo_do_SBT.svg/500px-Logotipo_do_SBT.svg.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "url": "https://6836041ea1117.streamlock.net/cverde/cverde/playlist.m3u8",
     },
-    {
+     {
+      "nome": "SBT BA - TV ARATU",
+      "categoria": "Esportes",
+      "logo": "https://thumb.wikimedia.org/wikipedia/pt/thumb/4/41/Logotipo_do_SBT.svg/500px-Logotipo_do_SBT.svg.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "url": "https://cdn.live.br1.jmvstream.com/w/LVW-9359/LVW9359_XSyReL0QVf/playlist.m3u8",
+    },
+     {
+      "nome": "Band PA - RBATV ",
+      "categoria": "Esportes",
+      "logo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Band_2026_logo.png/500px-Band_2026_logo.png?utm_source=pt.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+      "url": "https://cdn.live.br1.jmvstream.com/w/LVW-15748/LVW15748_Yed7yzLuRC/playlist.m3u8",
+    },
+     {
+      "nome": "Canal M3U8 com Referer",
+      "categoria": "Esportes",
+      "logo": "https://SEU-SITE.com/logos/canal2.png",
+      "url": "https://CDN.com/hls/canal2/playlist.m3u8",
+      "referer": "https://SITE-DO-PLAYER.com/"
+    },
+     {
+      "nome": "Canal M3U8 com Referer",
+      "categoria": "Esportes",
+      "logo": "https://SEU-SITE.com/logos/canal2.png",
+      "url": "https://CDN.com/hls/canal2/playlist.m3u8",
+      "referer": "https://SITE-DO-PLAYER.com/"
+    },
+     {
       "nome": "Canal M3U8 com Referer",
       "categoria": "Esportes",
       "logo": "https://SEU-SITE.com/logos/canal2.png",
@@ -22,54 +42,12 @@
       "referer": "https://SITE-DO-PLAYER.com/"
     },
     {
-      "nome": "Exemplo Pagina Web 1(php/html)",
-      "categoria": "Exemplos",
-      "logo": "",
-      "url": "https://sinaises.blogspot.com/2026/10/rbs-globo-porto-alegre.html",
-      "tipo": "web"
-    },
-     {
-      "nome": "Exemplo Pagina Web 2(php/html)",
-      "categoria": "Exemplos",
-      "logo": "",
-      "url": "https://ww0.embedtv.cc/afazenda",
-      "tipo": "web"
-    },
-    {
-      "nome": "Exemplo DASH (.mpd)",
-      "categoria": "Exemplos",
-      "logo": "",
-      "url": "https://SERVIDOR.com/live/canal/manifest.mpd",
-      "tipo": "dash"
-    },
-    {
-      "nome": "YouTube Ao Vivo",
-      "categoria": "YouTube",
-      "logo": "",
-      "url": "https://www.youtube.com/embed/uLqXRKXOB8E",
-      "obs": "Aceita: /embed/ID, watch?v=ID, youtu.be/ID, /live/ID ou link do canal /@nome/live"
-    },
-    {
-      "nome": "YouTube Canal Ao Vivo",
-      "categoria": "YouTube",
-      "logo": "",
-      "url": "https://www.youtube.com/@cnnbrasil/live",
-      "obs": "Aceita /@nome, /@nome/live, /channel/UC.../live. So toca quando o canal estiver ao vivo."
-    },
-    {
-      "nome": "Exemplo Completo (todos os campos)",
-      "categoria": "Filmes",
-      "logo": "https://SEU-SITE.com/logos/canal3.png",
-      "url": "https://CDN.com/hls/canal3/master.m3u8",
-      "tipo": "auto",
-      "referer": "https://SITE-DO-PLAYER.com/",
-      "origin": "https://SITE-DO-PLAYER.com",
-      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
-      "headers": {
-        "X-Exemplo": "valor"
-      },
-      "ativo": true
+      "nome": "Canal M3U8 com Referer",
+      "categoria": "Esportes",
+      "logo": "https://SEU-SITE.com/logos/canal2.png",
+      "url": "https://CDN.com/hls/canal2/playlist.m3u8",
+      "referer": "https://SITE-DO-PLAYER.com/"
     }
   ],
-  "versao": 5
+  "versao": 4
 }
