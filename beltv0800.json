@@ -1,8 +1,27 @@
-
 {
   "app": "Bel TV 0800",
-  "atualizado": "2026-11-16",
-  "canais": [
+  "atualizado": "2026-11-21",
+  "logo": "https://raw.githubusercontent.com/MendessSantos/TV-Bel-0800/refs/heads/main/logo.png",
+  "logo_tema_claro": "",
+  "whatsapp": "5561998272224",
+  "whatsapp_mensagem": "Olá! Vim pelo app Bel TV 0800.",
+  "aviso": {
+    "ativo": true,
+    "id": "boas-vindas-1",
+    "titulo": "Bem-vindo ao Bel TV 0800!",
+    "mensagem": "Escolha um canal e aperte OK para assistir. Segure OK para favoritar.",
+    "mostrar": "uma_vez",
+    "link": "",
+    "botao": ""
+  },
+  "atualizacao": {
+    "versao_codigo": 8,
+    "versao_nome": "4.4",
+    "link": "https://raw.githubusercontent.com/MendessSantos/TV-Bel-0800/refs/heads/main/beltv0800upgrade.apk",
+    "novidades": "Modo claro e escuro, aviso para usuarios, limpar cache e atualizacao pelo app.",
+    "obrigatoria": false
+  },
+ "canais": [
       {
       "nome": "REDE RECORD - TVR",
       "categoria": "Abertos",
@@ -92,5 +111,5 @@
       "referer": "https://playerembedcanais.site/"
     }  
   ],
-  "versao": 4
+  "versao": 5
 }
